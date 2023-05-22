@@ -1,0 +1,29 @@
+.banner {
+	position: relative;
+	width: 100%;
+	height: 300px; /* Adjust the height as needed */
+	background-color: #353333;
+}
+.banner-content {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.banner-heading {
+	flex: 1;
+	padding: 20px;
+	color: white;
+}
+.banner-image {
+	flex: 1;
+	height: 100%;
+	overflow: hidden;
+}
+.banner-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+h1 {
+	font-size: 60px !important;
+}
